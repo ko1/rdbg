@@ -1,6 +1,6 @@
 
 Gem::Specification.new do |spec|
-  spec.name          = "namespace for debug.gem (rdbg command)"
+  spec.name          = "rdbg"
   spec.version       = "0.1.0"
   spec.authors       = ["Koichi Sasada"]
   spec.email         = ["ko1@atdot.net"]
