@@ -1,6 +1,8 @@
 # Rdbg
 
-This gem is only namespace for debug.gem. debug.gem provides `rdbg` command so installing this gem also installs debug.gem if it is not installed.
+* This gem is only namespace for debug.gem.
+* debug.gem provides `rdbg` command and this rdbg.gem only provides dependency to `debug.gem`.
+* You can not require `rdbg` library and also you can not write `gem rdbg` in your Gemfile. Simply use `gem debug` in your Gemfile.
 
 ## License
 
